@@ -8,8 +8,9 @@ go 1.26.0
 // require and drop that workspace step once pkg/sr/v1.9.0 is tagged.
 require (
 	github.com/bufbuild/protocompile v0.14.1
+	github.com/jhump/protoreflect/v2 v2.0.0
 	github.com/twmb/franz-go/pkg/sr v1.8.0
-	google.golang.org/protobuf v1.36.6
+	google.golang.org/protobuf v1.36.12
 )
 
-require golang.org/x/sync v0.16.0 // indirect
+require golang.org/x/sync v0.22.0 // indirect
