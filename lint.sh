@@ -12,6 +12,7 @@ all_modules=(
 	pkg/kmsg
 	pkg/sr
 	pkg/sasl/kerberos
+	plugin/srproto
 )
 
 if [ "${1:-}" = "-p" ] && [ -n "${2:-}" ]; then

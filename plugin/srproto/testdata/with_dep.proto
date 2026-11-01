@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package testpb;
+
+import "dep.proto";
+
+option go_package = "github.com/twmb/franz-go/plugin/srproto/testpb";
+
+message WithDep {
+  Dep dep = 1;
+}
